@@ -1,0 +1,7 @@
+/.idea/.gitignore
+/.idea/data-engineer-2023-05.iml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/vcs.xml
+/.idea/sonarlint/
+/**/.idea/
