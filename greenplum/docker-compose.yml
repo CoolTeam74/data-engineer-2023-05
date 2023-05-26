@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  greenplum:
+    hostname: greenplum
+    image: datagrip/greenplum:6.1
+    container_name: greenplum-standalone
+    ports:
+      - "5432:5432"
