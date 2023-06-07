@@ -12,6 +12,8 @@ services:
       - ./hadoop-hive.env
     ports:
       - "50070:50070"
+      - "9870:9870"
+      - "9000:9000"
 
   datanode:
     image: bde2020/hadoop-datanode:2.0.0-hadoop2.7.4-java8

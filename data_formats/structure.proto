@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_outer_classname = "StructureProto";
+option java_package = "ru.apolyakov.generated";
+
+message MapFieldEntry {
+    string key = 1;
+    string value = 2;
+}
+
+message Structure_Message {
+    string stringValue = 1;
+    repeated string array = 2;
+    repeated MapFieldEntry map_field = 3;
+    int64 longValue = 4;
+    double doubleValue = 5;
+}
