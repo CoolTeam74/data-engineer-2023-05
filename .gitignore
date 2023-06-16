@@ -1503,3 +1503,4 @@
 /airflow/logs/scheduler/2023-06-16/native_dags/example_dags/tutorial_taskflow_api.py.log
 /airflow/logs/scheduler/2023-06-16/native_dags/example_dags/tutorial_taskflow_api_virtualenv.py.log
 /airflow/logs/scheduler/latest
+/datavault/dbt_packages/
